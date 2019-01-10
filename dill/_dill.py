@@ -559,6 +559,8 @@ if ExitType:
 if InputType:
     _reverse_typemap['InputType'] = InputType
     _reverse_typemap['OutputType'] = OutputType
+if SliceType:
+    _reverse_typemap['SliceType'] = SliceType
 if not IS_PYPY:
     _reverse_typemap['WrapperDescriptorType'] = WrapperDescriptorType
     _reverse_typemap['MethodDescriptorType'] = MethodDescriptorType
